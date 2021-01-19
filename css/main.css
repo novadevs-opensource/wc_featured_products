@@ -1,0 +1,48 @@
+.carousel-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fp_left {
+    width: 50%;
+    float: left;
+}
+
+.fp_right {
+    width: 50%;
+    float: right;
+    padding: 2em;
+}
+
+.fp_right{
+    width: 50%;
+    float: right;
+    padding: 2em;
+
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.fp_right p {
+    position: absolute;
+    bottom: 1em;
+}
+
+.carousel-control-prev .et-pb-icon,
+.carousel-control-next .et-pb-icon  {
+    color: #333;
+    font-size: 33px;
+}
+
+.color1 {
+    background-color: #fcba00;
+}
+
+.color2 {
+    background-color: #fe6101;
+}
+
+.color3 {
+    background-color: #77d5cc;
+}
