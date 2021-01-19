@@ -3,7 +3,7 @@
 Plugin Name: Quiero Spain featured products slider
 Plugin URI: https://novadevs.com/
 Description: Plugin para mmostrar los productos destacados del comercio sobre un slider en la home
-Version: 1.0.0
+Version: 1.0.0-rc
 Author: Bruno Lorente
 Author URI: https://github.com/brunolorente
 License: GPLv2 or later
