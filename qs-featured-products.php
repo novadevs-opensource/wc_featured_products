@@ -56,7 +56,7 @@ if (! function_exists('qs_fp_scripts')) {
 
         // Own scripts
         wp_deregister_script('qs_fp_scripts');
-        wp_enqueue_script('qs_fp_scripts', plugin_dir_url(__FILE__) . 'scripts/main.js');
+        wp_enqueue_script('qs_fp_scripts', plugin_dir_url(__FILE__) . 'scripts/main.js', array('jquery'), null, true);
     }
 }
 add_action('wp_enqueue_scripts', 'qs_fp_scripts');

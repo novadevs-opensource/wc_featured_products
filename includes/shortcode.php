@@ -27,12 +27,12 @@ function get_qs_fp_block()
     $o .= ' 
             </div>
             <!-- controls -->
-            <a class="carousel-control-prev" href="#fp_slider" role="button" data-slide="prev">
-                <span class="et-pb-icon">&#x23;</span>
+            <a class="carousel-control-prev carousel-control" href="#fp_slider" role="button" data-slide="prev">
+                <span class="et-pb-icon" aria-hidden="true">&#x23;</span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#fp_slider" role="button" data-slide="next">
-                <span class="et-pb-icon">&#x24;</span>
+            <a class="carousel-control-next carousel-control" href="#fp_slider" role="button" data-slide="next">
+                <span class="et-pb-icon" aria-hidden="true">&#x24;</span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
