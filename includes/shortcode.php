@@ -17,7 +17,12 @@ function get_qs_fp_block()
         $o .= '         </a>';
         $o .= '     </div>';
         $o .= '     <div class="fp_right color'.rand(1, 3).'">';
-        $o .=  '        <h2>'.$product->get_title().'</h2>';
+
+        if (get_post_meta($product->get_id(), 'numero_de_pack', true)) {
+            $o .=  '        <span class="pack_number">'.get_post_meta($product->get_id(), 'numero_de_pack', true).'</span>';
+        }
+    
+        $o .=  '        <h2 class="h2">'.$product->get_title().'</h2>';
         $o .=  '        <p>'.$product->get_short_description().'</p>';
         $o .= '     </div>';
         $o .= '</div>';

@@ -46,3 +46,13 @@
 .color3 {
     background-color: #77d5cc;
 }
+
+.pack_number {
+    display: inline-block;
+    padding: 0.2em .9em;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 14px;
+    margin-bottom: .7em;
+}
