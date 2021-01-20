@@ -49,18 +49,10 @@ add_action('wp_enqueue_scripts', 'qs_fp_styles');
 if (! function_exists('qs_fp_scripts')) {
     function qs_fp_scripts()
     {
-        // jQuery
-        wp_deregister_script('jquery');
-        wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', false, null, false);
-        wp_enqueue_script('jquery');
-
+        // Bootstrap 4 JS
         wp_deregister_script('bootstrap-js');
-        wp_register_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', false, null, false);
+        wp_register_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', array('jquery'), null, true);
         wp_enqueue_script('bootstrap-js');
-
-        wp_deregister_script('bootstrap-js-bundle');
-        wp_register_script('bootstrap-js-bundle', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js', false, null, false);
-        wp_enqueue_script('bootstrap-js-bundle');
 
         // Own scripts
         wp_deregister_script('qs_fp_scripts');
