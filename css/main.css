@@ -8,17 +8,10 @@
     float: left;
 }
 
-.fp_right {
-    width: 50%;
-    float: right;
-    padding: 2em;
-}
-
 .fp_right{
     width: 50%;
     float: right;
     padding: 2em;
-
     position: absolute;
     right: 0;
     height: 100%;
